@@ -1,0 +1,84 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  /* Темная тема */
+  .dark .modal-content {
+    background: linear-gradient(135deg, #333, #08334d);
+    color: white;
+  }
+  
+  /* Заголовок */
+  .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  
+  /* Кнопка входа */
+  .modal-button {
+    width: 100%;
+    padding: 12px;
+    background: #fa5f35; /* Новый цвет кнопки */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .modal-button:hover {
+    background: #f53e3e;
+  }
+  
+  .dark .modal-button {
+    background: #3692c7;
+  }
+  
+  .dark .modal-button:hover {
+    background: #1572a8;
+  }
+  
+  .modal-close {
+    margin-top: 12px;
+    background: none;
+    border: none;
+    color: #777;
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .modal-close:hover {
+    color: black;
+  }
+  
+  /* Темная тема */
+  .dark .modal-close {
+    color: #bbb;
+  }
+  
+  .dark .modal-close:hover {
+    color: white;
+  }
+  

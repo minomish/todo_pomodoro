@@ -1,0 +1,13 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: white;
+  color: black;
+  margin: 10px;
+}
+
+.dark {
+  background-color: rgb(46, 46, 46);
+  color: white;
+}

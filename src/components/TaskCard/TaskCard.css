@@ -1,0 +1,115 @@
+li {
+    display: block;
+    list-style-type: none;
+    margin: 20px;
+    width: 28vw;
+    min-height: 28vw;
+    border-radius: 20px;
+    position: relative;
+    color: black;
+    text-shadow: white 0 0 3px, white 0 0 6px, white 0 0 9px;
+}
+
+li div {
+    text-align: center;
+}
+
+li div span {
+    text-align: left;
+    padding: 20px 20px 0;
+    display: block;
+}
+
+li div textarea {
+    width: 24vw;
+    height: 19vw;
+    margin: 12px 6px;
+    font-size: 16px;
+    padding: 3px 6px;
+    border-radius: 6px;
+}
+
+li div .buttons {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+li div .buttons input[type="color"] {
+    margin: 6px;
+    vertical-align: bottom;
+    height: 32px;
+    width: 25%;
+    border-radius: 6px;
+    appearance: auto;
+}
+
+
+.task-card {
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .dark .task-card{
+    background-color: #ddd;
+  }
+  
+  .task-card .task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-card .task-header h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .task-card .task-header .delete-btn {
+    background: none;
+    border: 2px solid red;
+    border-radius: 6px;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .task-card .task-header .delete-btn:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  .task-card .description {
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  
+  .task-card .task-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .task-card .task-actions button {
+    padding: 6px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-card .task-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-card .task-actions button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
